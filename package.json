@@ -1,0 +1,29 @@
+{
+  "name": "@episerver/create-cms-api-report",
+  "version": "1.0.0",
+  "description": "Analyze your Episerver project to make sure only public non-deprecated Episerver CMS API's are used.",
+  "keywords": [
+    "episerver",
+    "eslint",
+    "eslint-plugin",
+    "eslintplugin",
+    "npx"
+  ],
+  "repository": "github:seriema/episerver-create-cms-api-report",
+  "license": "Apache-2.0",
+  "author": "John-Philip Johansson <jp.johansson@episerver.com>",
+  "files": [
+    "index.js",
+    "LICENSE",
+    "npx-eslintrc-xproduct.js",
+    "npx-eslintrc.js",
+    "README.md"
+  ],
+  "bin": "index.js",
+  "dependencies": {
+    "@episerver/eslint-formatter-cms": "^1.0.0",
+    "@episerver/eslint-plugin-cms": "^2.1.0",
+    "arg": "^4.1.0",
+    "eslint": "^4.19.1"
+  }
+}
